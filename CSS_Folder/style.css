@@ -1,0 +1,71 @@
+/* ======================= */
+/* WEBSITE BODY FORMATTING */
+/* ======================= */
+
+.grid-body {
+  /* Grid Formatting */
+  display: grid;
+  grid-template-columns: 95vw 5vw;
+}
+
+.content-body {
+  /* Page Sizing */
+  height: 99.7vh;
+
+  /* Borders */
+  border: solid 1pt;
+
+  /* Debug */
+  background-color: red;
+}
+
+.nav-body {
+  /* Page Sizing */
+  height: 99.7vh;
+
+  /* Borders */
+  border: solid 1pt;
+}
+
+/* ========================= */
+/* NAVIGATION BAR FORMATTING */
+/* ========================= */
+nav {
+  height: inherit;
+}
+
+nav ul {
+  /* Page Sizing */
+  height: inherit;
+
+  /* Page Layout */
+  margin: 0;
+  padding: 0;
+
+  /* Grid Formatting */
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+nav ul li {
+  /* Text Positioning*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* List Styling */
+  list-style: none;
+
+  /* Borders */
+  border: solid 1pt;
+
+  /* Debug */
+  background-color: pink;
+}
+
+nav ul li a {
+  /* Text Styling */
+  writing-mode: vertical-rl;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
