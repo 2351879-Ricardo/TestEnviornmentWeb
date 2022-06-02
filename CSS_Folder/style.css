@@ -10,7 +10,7 @@
 
 .content-body {
   /* Page Sizing */
-  height: 99.7vh;
+  min-height: 99.7vh;
 
   /* Borders */
   border: solid 1pt;
@@ -20,7 +20,11 @@
 }
 
 .nav-body {
+  /* Positioning */
+  position: fixed;
+
   /* Page Sizing */
+  width: 5vw;
   height: 99.7vh;
 
   /* Borders */
@@ -30,7 +34,9 @@
 /* ========================= */
 /* NAVIGATION BAR FORMATTING */
 /* ========================= */
+
 nav {
+  /* Element Sizing */
   height: inherit;
 }
 
